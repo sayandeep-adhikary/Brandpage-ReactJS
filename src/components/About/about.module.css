@@ -1,0 +1,9 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+@media (width < 768px) {
+  .container {
+    text-align: center;
+  }
+}

@@ -1,4 +1,4 @@
-.nav-items {
+.nav_items {
   font-weight: 500 !important;
   background: linear-gradient(to right,#fff,#fff),
   linear-gradient(
@@ -12,16 +12,16 @@
   background-repeat: no-repeat;
   transition: background-size 400ms;
 }
-.nav-items:hover {
+.nav_items:hover {
   background-size: 0 0.1em, 100% 0.1em;
 
 }
 
 @media (width >= 900px) {
-  .nav-options {
+  .nav_options {
     margin-left: 25%;
   }
-  .nav-login-btn {
+  .nav_loginbtn {
     position: absolute;
     right: 30px !important;
   }

@@ -1,0 +1,36 @@
+.h1_text {
+    font-family: 'Poppins', sans-serif;
+}
+.p_text {
+    max-width: 950px;
+    font-weight: 500;
+}
+.form_control {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+.form_control input {
+    height: 2.5rem;
+    padding: 0 8px;
+}
+.form_control textarea {
+    height: 2.5rem;
+    padding: 4px 8px;
+}
+.form_control label {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: white;
+    padding: 0 5px;
+}
+.textarea {
+    bottom: 35px;
+}
+@media (width < 995px){
+    .container{
+        text-align: center;
+    }
+}

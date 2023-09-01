@@ -1,0 +1,15 @@
+.custom {
+    width: 16rem;
+    height: 45px;
+}
+.large_btn {
+    width: 100%;
+}
+.text {
+    font-weight: 500;
+}
+@media (width < 458px){
+    .custom {
+        height: 65px;
+    }
+}
