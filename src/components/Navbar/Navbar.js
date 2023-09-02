@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import navStyles from "./navbar.module.css";
+import nike from "../images/nike.png"
 export default function Navbar() {
   const changeActive = (e) => {
     let nav_links = Array.from(document.getElementsByClassName("nav-link"));
@@ -15,7 +16,7 @@ export default function Navbar() {
       <div className="container-fluid">
         <a className="navbar-brand ms-lg-5 ms-sm-0" href="/">
           <img
-            src="https://pngimg.com/uploads/nike/nike_PNG12.png"
+            src={nike}
             alt="Nike"
             width={80}
           />
